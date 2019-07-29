@@ -1,0 +1,32 @@
+@font-face {
+font-family:"essonnes-display";
+src:url("https://use.typekit.net/af/eaf59d/00000000000000003b9ada65/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/eaf59d/00000000000000003b9ada65/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/eaf59d/00000000000000003b9ada65/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;
+}
+
+@font-face {
+font-family:"essonnes-display";
+src:url("https://use.typekit.net/af/6a5fe5/00000000000000003b9ada64/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/6a5fe5/00000000000000003b9ada64/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/6a5fe5/00000000000000003b9ada64/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+.tk-essonnes-display { font-family: "essonnes-display",serif; }
+
+body {
+	background: #fff6f8;
+	margin: 0;
+}
+
+.centered {
+	height: auto;
+}
+
+p {
+	font-family: essonnes-display;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 300;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	line-height: 33px;
+}
